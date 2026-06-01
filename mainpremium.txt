@@ -1,6 +1,6 @@
 task.spawn(function()
     pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/anhdomixi.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hoang-VN1/Tets/refs/heads/main/HDZKIEMCOM"))()
     end)
 end) 
 
