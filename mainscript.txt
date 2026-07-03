@@ -47,7 +47,7 @@ local LinkLabel = Instance.new("TextLabel")
 LinkLabel.Size = UDim2.new(0, 260, 1, 0)
 LinkLabel.Position = UDim2.new(0, 0, 0, 0)
 LinkLabel.BackgroundTransparency = 1
-LinkLabel.Text = "https://discord.gg/tRfdjxEx4"
+LinkLabel.Text = "https://discord.gg/nMu3H4X2As"
 LinkLabel.TextColor3 = Color3.fromRGB(114, 137, 218)
 LinkLabel.TextSize = 14 -- Hạ size chữ xuống cho gọn
 LinkLabel.Font = Enum.Font.Gotham
@@ -63,9 +63,9 @@ CopyButton.Parent = ContentContainer
 
 CopyButton.MouseButton1Click:Connect(function()
     if setclipboard then
-        setclipboard("https://discord.gg/tRfdjxEx4")
+        setclipboard("https://discord.gg/nMu3H4X2As")
     elseif toclipboard then
-        toclipboard("https://discord.gg/tRfdjxEx4")
+        toclipboard("https://discord.gg/nMu3H4X2As")
     end
     
     local oldText = LinkLabel.Text
